@@ -1,0 +1,12 @@
+deploymentName: node-app-deploy
+replicaCount: 1
+
+appName: node-app
+imageName: 886863818383.dkr.ecr.ap-south-1.amazonaws.com/nodeapp:3.0
+containerPort: 3000
+
+servcieName: node-service
+port: 6000
+targetPort: 3000
+
+nameSpace: apps

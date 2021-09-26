@@ -1,0 +1,12 @@
+deploymentName: react-app-deploy
+replicaCount: 1
+
+appName: react-app
+imageName: 886863818383.dkr.ecr.ap-south-1.amazonaws.com/reactapp
+containerPort: 3000
+
+serviceName: react-service
+port: 4000
+targetPort: 3000
+
+nameSpace: apps

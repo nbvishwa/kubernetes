@@ -1,0 +1,12 @@
+deploymentName: java-app-deploy
+replicaCount: 1
+
+appName: java-app
+imageName: 886863818383.dkr.ecr.ap-south-1.amazonaws.com/javaapp
+containerPort: 8080
+
+serviceName: java-service
+port: 7000
+targetPort: 8080
+
+nameSpace: apps

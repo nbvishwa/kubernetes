@@ -1,0 +1,12 @@
+deploymentName: python-app-deploy
+replicaCount: 1
+
+appName: python-app
+imageName: 886863818383.dkr.ecr.ap-south-1.amazonaws.com/pythonapp
+containerPort: 3000
+
+serviceName: python-service
+port: 6000
+targetPort: 5000
+
+nameSpace: apps
